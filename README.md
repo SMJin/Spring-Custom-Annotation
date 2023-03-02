@@ -33,4 +33,7 @@ Let's learn java Spring's Annotation concept by making custom annotation
 - @RetentionPolicy.RUNTIME : compile 이후 runtime 시에도 .class 파일에 존재한다.
 ###### ![@Retention](https://github.com/DaeAkin/java-custom-annotation/blob/master/docs/javacompiler.png?raw=true)
 ###### [이미지 및 참조BLOG](https://donghyeon.dev/spring/2020/08/18/Spring-Annotation%EC%9D%98-%EC%9B%90%EB%A6%AC%EC%99%80-Custom-Annotation-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0/)
-### @interface : 어노테이션 명
+### @interface [어노테이션 명]
+- 어노테이션 타입은 @interface로 정의해야 한다. (Ex) public @intergace [어노테이션 명]
+### @Documented : java doc 문서화 여부
+### @Inherited : 자식 클래스에 상속할 것인지 결정
