@@ -15,5 +15,5 @@ public @interface FruitProvider {
 
     String name() default "";
 
-    String address() default "";
+    String resion() default "";
 }
